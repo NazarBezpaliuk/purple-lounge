@@ -1,0 +1,115 @@
+body {
+  font-family: "Oswald", Courier, monospace;
+  background-color: purple;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+.logo {
+  width: 100px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.header .container {
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #ffffff;
+  position: relative;
+}
+.header {
+}
+.logo-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.icon__menu-open {
+  fill: purple;
+}
+.menu-open {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.mob-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  top: 0;
+  overflow: auto;
+  padding: 15px;
+  transform: translateX(0);
+  transition: transform 1000ms linear, opacity 1000ms linear,
+    visibility 1000ms linear;
+}
+.mob-menu-list {
+  font-size: 30px;
+}
+.mob-menu-list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.mob-menu-list-item__link {
+  color: purple;
+}
+.logo-link-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.menu-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.icon__menu-close {
+  fill: rgba(128, 0, 128, 0.514);
+}
+
+.current {
+  color: rgb(235, 78, 214);
+}
+.is-hidden-mob {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.mob-menu.is-hidden-mob {
+  transform: translateX(100%);
+}
+.no-scroll {
+  overflow: hidden;
+}

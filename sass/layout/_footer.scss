@@ -1,0 +1,21 @@
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background-color: #ffffff;
+}
+.icon-inst {
+  fill: rgba(128, 0, 128, 0.588);
+}
+.footer-tel {
+  color: purple;
+}
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-addres {
+  color: purple;
+}
