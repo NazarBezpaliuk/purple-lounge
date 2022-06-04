@@ -66,6 +66,7 @@ img {
   position: absolute;
   right: 20px;
   top: 17px;
+  display: inline-block;
   background-color: transparent;
   border: none;
   outline: none;

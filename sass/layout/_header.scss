@@ -1,5 +1,5 @@
 body {
-  font-family: "Oswald", Courier, monospace;
+  font-family: 'Oswald', Courier, monospace;
   background-color: purple;
 }
 ul {
@@ -57,6 +57,7 @@ img {
   position: absolute;
   right: 20px;
   top: 17px;
+  display: inline-block;
   background-color: transparent;
   border: none;
   outline: none;
@@ -70,8 +71,7 @@ img {
   overflow: auto;
   padding: 15px;
   transform: translateX(0);
-  transition: transform 1000ms linear, opacity 1000ms linear,
-    visibility 1000ms linear;
+  transition: transform 1000ms linear, opacity 1000ms linear, visibility 1000ms linear;
 }
 .mob-menu-list {
   font-size: 30px;
