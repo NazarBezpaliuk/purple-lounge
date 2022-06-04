@@ -1,0 +1,92 @@
+.coktail {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.short-cocktail {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-image: url(../image/short-cocktail.png), url(../image/whiskey-sour.png),
+    url(../image/old-fashion.png);
+  background-repeat: no-repeat;
+  background-position: top left, top 450px left, top 150px left -20px;
+  background-size: contain, 250px, 250px;
+  @media screen and (max-width: 360px) {
+    padding-top: 100px;
+  }
+}
+.short-cocktail-list-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: purple;
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.short-cocktail-list-item__name {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  @media screen and (max-width: 420px) {
+    color: rgb(192, 60, 192);
+  }
+}
+.short-cocktail-list-item__ing {
+  font-size: 15px;
+  @media screen and (max-width: 420px) {
+    color: rgb(192, 60, 192);
+  }
+}
+.short-cocktail-list-item__price {
+  margin-left: 20px;
+  font-weight: 600;
+}
+.long-cocktail {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-image: url(../image/long-cocktail.png), url(../image/cocktail-dekor-b.png);
+  background-position: top center, bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media screen and (max-width: 360px) {
+    padding-top: 100px;
+  }
+}
+.long-cocktail-list-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: purple;
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.long-cocktail-list-item__name {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.long-cocktail-list-item__ing {
+  font-size: 15px;
+  @media screen and (min-width: 344px) {
+    width: 210px;
+  }
+}
+.long-cocktail-list-item__price {
+  margin-left: 20px;
+  font-weight: 600;
+}

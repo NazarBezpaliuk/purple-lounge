@@ -8,14 +8,17 @@
   flex-direction: column;
   padding-right: 30px;
   padding-top: 150px;
-  padding-bottom: 30px;
-  background-image: url(../image/hookah.png), url(../image/dym.png);
+  padding-bottom: 150px;
+  background-image: url(../image/hookah.png), url(../image/ps.png);
   background-repeat: no-repeat;
-  background-position: top 7px left 10px, bottom left 20px;
-  background-size: contain, 120px;
+  background-position: top 7px left 10px, bottom center;
+  background-size: contain, contain;
   margin-bottom: 20px;
   @media screen and (min-width: 440px) {
     padding-top: 200px;
+  }
+  @media screen and (max-width: 340px) {
+    padding-bottom: 110px;
   }
 }
 .hookah-list {
@@ -49,8 +52,8 @@
   background-position: top 5px center, bottom left 20px;
   background-size: contain, 120px;
   @media screen and (min-width: 436px) {
-    background-image: url(../image/frukty.png), url(../image/dym.png),
-      url(../image/orange.png), url(../image/grp.png), url(../image/ananas.png);
+    background-image: url(../image/frukty.png), url(../image/dym.png), url(../image/orange.png),
+      url(../image/grp.png), url(../image/ananas.png);
     background-position: top 5px center, bottom left 20px, bottom 120px center,
       bottom 70px right 190px, bottom center;
     background-size: contain, 120px, 80px, 60px, 60px;

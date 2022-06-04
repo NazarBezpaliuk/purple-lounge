@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ukr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Purple-lounge</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="./index.html" class="logo-link"
+          ><img src="./image/logo.png" alt="purple-lounge" class="logo"
+        /></a>
+        
+        <button type="button" class="menu-open"><svg class="icon__menu-open" width="36" height="36" data-menu-open>
+                  <use href="./image/symbol-defs.svg#icon-menu"></use></svg
+              ></button>
+      </div>
+      <div class="mob-menu is-hidden-mob" data-menu>
+          <div class="box-mob">
+          <button type="button" class="menu-close"><svg class="icon__menu-close" width="40" height="40" data-menu-close>
+                  <use href="./image/symbol-defs.svg#icon-mob-menu-close"></button>
+          <a href="./index.html" class="logo-link-menu"
+          ><img src="./image/logo.png" alt="purple-lounge" class="logo"
+        /></a>
+           <ul class="mob-menu-list">
+          <li class="mob-menu-list-item">
+            <a href="./hokah.html" class="mob-menu-list-item__link ">Кальян</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a href="./ba.html" class="mob-menu-list-item__link">Безалкогольні-напої</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a href="./coktail.html" class="mob-menu-list-item__link">Коктелі</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a href="./shoty.html" class="mob-menu-list-item__link">Шоти</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a href="./bear.html" class="mob-menu-list-item__link">Пиво</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a href="./alkohol.html" class="mob-menu-list-item__link  current">Алкоголь</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a href="./hot-drink.html" class="mob-menu-list-item__link">Кава-чай</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+       <section class="alcohol">
+            <div class="container">
+               <ul class="alcohol-list">
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">Wine/Вино</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Dry white/Біле сухе</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>50</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Dry red/Червоне сухе</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>50</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Semi sweet/Напівсолодке</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>50</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">champagne</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Fragolino Fiorelli</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">150ml</span>80</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">0,750</span>250</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Fragolino San Mare</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">150ml</span>80</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">0,750</span>250</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Platinium</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">150ml</span>80</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">0,750</span>260</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">vermouth/вермут</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Martini bianco</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>50</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Martini extra dry</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>50</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Martini rosso</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>50</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">rum/ром</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Captian Morgan White</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>65</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Captian Morgan Gold</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>65</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Captian Morgan Dark</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>70</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Captian Morgan Black Spiced80</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>80</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">gin/Джин</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Finsbury</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>65</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Gordons</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>70</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Beefeater</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>80</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Tangueray</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>85</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">tequila/текіла</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Sierra</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>70</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Tescaz</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>65</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">whisky/віскі</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Johnnie Walker Red Lable</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>75</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Jameson</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>85</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Jameson IPA Edition</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>95</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Bell's Original</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>55</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">vodka/горілка</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Rada Premium Classic</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>35</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Finlandia</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>55</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">bourbon/бурбон</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Jim Beam Kentucky Straigth</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>60</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Jim Beam Red Stag</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>60</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Jim Beam Honey</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>60</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Jim Beam Apple</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>60</p>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="alcohol-list-item">
+                       <h2 class="alcohol-list-item__title">other/настоянки та лікери</h2>
+                       <ul class="alc-name-list">
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Baileys Original</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>80</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Jagemaister</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>65</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Campari</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>55</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Xenta Absinthe</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>75</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Aperol</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>55</p>
+                           </li>
+                           <li class="alc-name-list-item">
+                               <p class="alc-name-list-item__name">Sambuka</p>
+                               <p class="alc-name-list-item__price"><span class="alc-name-list-item__gram">50ml</span>60</p>
+                           </li>
+                       </ul>
+                   </li>
+               </ul>
+            </div>
+        </section> 
+    </main>   
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo-link"
+          ><img src="./image/logo.png" alt="purple-lounge" class="logo"
+        /></a>
+        <a href="https://www.instagram.com/purple.lounge_lviv/" class="inst" target="_blank"><svg class="icon-inst" width="36" height="36">
+                  <use href="./image/symbol-defs.svg#icon-instagram-2""></use></svg
+              ></a>
+              <div class="contact-footer">
+        <a href="tel:+380736003331" class="footer-tel">+38-073-600-333-1</a>
+        <a href="https://goo.gl/maps/7tZqrMdDSLxCXLTDA" class="footer-addres" target="_blank"> Леся Курбаса 8</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/menu-mob.js"></script>
+  </body>
+</html>
