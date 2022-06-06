@@ -543,6 +543,16 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  background-image: url(../image/brn.png);
+  background-repeat: no-repeat;
+  background-position: bottom 25px right 80px;
+  background-size: 100px;
+}
+@media screen and (max-width: 340px) {
+  .shoty {
+    background-position: bottom 25px right 60px;
+    background-size: 80px;
+  }
 }
 
 .shoty__title {
@@ -562,6 +572,10 @@ img {
   font-size: 20px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+  border-bottom: 2px solid rgba(128, 0, 128, 0.442);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .shoty-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -664,6 +678,10 @@ img {
 
 .green-mexican {
   background-image: linear-gradient(white 33%, rgb(200, 196, 92) 60%, rgb(7, 152, 41) 33%);
+}
+
+.x {
+  margin-left: 30px;
 }
 
 .hirosima {
