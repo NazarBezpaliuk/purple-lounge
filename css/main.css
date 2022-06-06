@@ -565,7 +565,7 @@ img {
 .shoty-list-item {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   font-size: 20px;
   font-weight: 500;
   color: purple;
@@ -623,6 +623,93 @@ img {
     font-size: 10px;
     margin-left: 100px;
   }
+}
+
+.shotyimage {
+  width: 7px;
+  height: 14px;
+  border: 1px solid black;
+  border-bottom-left-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
+}
+
+.shotyimage__box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 31px;
+}
+
+.center {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.shoty-list-item__price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shoty-list-item__prise-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shoty-list-item__prise-six {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one-shot {
+  margin-bottom: 5px;
+}
+
+.green-mexican {
+  background-image: linear-gradient(white 33%, rgb(200, 196, 92) 60%, rgb(7, 152, 41) 33%);
+}
+
+.hirosima {
+  background-image: linear-gradient(rgb(22, 166, 22) 15%, rgb(221, 190, 97) 60%, #fff 85%, rgb(255, 0, 0) 5%);
+}
+
+.b-52 {
+  background-image: linear-gradient(#fff 30%, rgb(221, 190, 97) 60%, rgb(60, 43, 11) 30%);
+}
+
+.hmara {
+  background-image: linear-gradient(rgb(76, 190, 45) 30%, rgb(61, 215, 200) 60%, #fff 30%);
+}
+
+.yin-yang {
+  background-image: linear-gradient(rgb(216, 195, 90), rgb(219, 202, 117));
+}
+
+.bohme-shot {
+  background-image: linear-gradient(rgb(56, 210, 45) 15%, rgb(226, 226, 226) 60%, rgb(151, 193, 238) 15%);
+}
+
+.quik-fuck {
+  background-image: linear-gradient(rgb(70, 133, 67) 30%, rgb(219, 202, 117) 60%, rgb(61, 10, 10) 30%);
+}
+
+.dead-pool {
+  background-image: linear-gradient(rgb(0, 0, 0) 15%, rgb(232, 24, 24) 60%, rgb(61, 10, 10) 15%);
+}
+
+.uncle-vanya {
+  background-image: linear-gradient(rgb(255, 255, 255) 15%, rgb(206, 83, 83) 60%, rgb(245, 1, 1) 15%);
+}
+
+.bronepoizd {
+  background-image: linear-gradient(rgb(201, 166, 51) 15%, rgb(201, 166, 51) 60%, rgb(201, 166, 51) 15%);
+}
+
+.head-shot {
+  background-image: linear-gradient(rgb(255, 255, 255) 15%, rgb(225, 203, 91) 60%, rgb(248, 45, 45) 15%);
 }
 
 .bear-section {
