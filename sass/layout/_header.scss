@@ -71,7 +71,7 @@ img {
   overflow: auto;
   padding: 15px;
   transform: translateX(0);
-  transition: transform 1000ms linear, opacity 1000ms linear, visibility 1000ms linear;
+  transition: transform 500ms linear, opacity 500ms linear, visibility 500ms linear;
 }
 .mob-menu-list {
   font-size: 30px;
