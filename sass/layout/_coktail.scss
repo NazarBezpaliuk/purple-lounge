@@ -26,6 +26,7 @@
   font-size: 30px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
   &:not(:last-child) {
     margin-bottom: 15px;
   }
@@ -34,15 +35,9 @@
   display: flex;
   flex-direction: column;
   text-align: right;
-  @media screen and (max-width: 420px) {
-    color: rgb(192, 60, 192);
-  }
 }
 .short-cocktail-list-item__ing {
   font-size: 15px;
-  @media screen and (max-width: 420px) {
-    color: rgb(192, 60, 192);
-  }
 }
 .short-cocktail-list-item__price {
   margin-left: 20px;
@@ -71,6 +66,8 @@
   font-size: 30px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+
   &:not(:last-child) {
     margin-bottom: 15px;
   }

@@ -459,6 +459,7 @@ img {
   font-size: 30px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .short-cocktail-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -469,19 +470,9 @@ img {
   flex-direction: column;
   text-align: right;
 }
-@media screen and (max-width: 420px) {
-  .short-cocktail-list-item__name {
-    color: rgb(192, 60, 192);
-  }
-}
 
 .short-cocktail-list-item__ing {
   font-size: 15px;
-}
-@media screen and (max-width: 420px) {
-  .short-cocktail-list-item__ing {
-    color: rgb(192, 60, 192);
-  }
 }
 
 .short-cocktail-list-item__price {
@@ -515,6 +506,7 @@ img {
   font-size: 30px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .long-cocktail-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -547,19 +539,20 @@ img {
 .shoty {
   background-color: #ffffff;
   border-radius: 20px;
-  padding-top: 180px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  background-image: url(../image/shoty.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
 }
-@media screen and (max-width: 420px) {
-  .shoty {
-    padding-top: 150px;
-  }
+
+.shoty__title {
+  border: 2px solid purple;
+  color: purple;
+  font-size: 40px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
 }
 
 .shoty-list-item {
