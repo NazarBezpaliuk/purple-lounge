@@ -334,6 +334,7 @@ img {
   font-size: 30px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .soft-drink-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -383,6 +384,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .lemonade-drink-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -748,6 +750,7 @@ img {
   font-size: 30px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .bear-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -785,6 +788,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .snacks-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -836,6 +840,7 @@ img {
 .alcohol-list-item {
   text-align: right;
   margin-bottom: 30px;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 
 .alcohol-list-item__title {
@@ -909,6 +914,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .hot-drink-list-item:not(:last-child) {
   margin-bottom: 15px;
@@ -952,6 +958,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   color: purple;
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
 }
 .kraft-tea-list-item:not(:last-child) {
   margin-bottom: 15px;
