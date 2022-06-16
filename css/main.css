@@ -81,15 +81,22 @@ img {
   overflow: auto;
   padding: 15px;
   transform: translateX(0);
-  transition: transform 1000ms linear, opacity 1000ms linear, visibility 1000ms linear;
+  transition: transform 500ms linear, opacity 500ms linear, visibility 500ms linear;
 }
 
 .mob-menu-list {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
 }
 
-.mob-menu-list-item:not(:last-child) {
-  margin-bottom: 15px;
+.mob-menu-list-item {
+  border-bottom: 2px solid rgba(128, 0, 128, 0.463);
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.mob-menu-list-item:first-child {
+  border-top: 2px solid rgba(128, 0, 128, 0.463);
 }
 
 .mob-menu-list-item__link {
@@ -879,6 +886,21 @@ img {
 
 .alc-name-list-item__gram {
   font-size: 10px;
+}
+
+.nastoyanky {
+  font-size: 19px;
+  border: 2px solid purple;
+  color: purple;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  height: 50px;
+  padding: 0 15px;
 }
 
 .hot-drink-section {

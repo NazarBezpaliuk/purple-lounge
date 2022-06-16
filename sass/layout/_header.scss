@@ -68,16 +68,27 @@ img {
   height: 100%;
   background-color: #ffffff;
   top: 0;
+  // background-image: url(../image/hookah-menu.png);
+  // background-repeat: no-repeat;
+  // background-position: top 100px right;
+  // background-size: 300px;
   overflow: auto;
   padding: 15px;
   transform: translateX(0);
   transition: transform 500ms linear, opacity 500ms linear, visibility 500ms linear;
 }
 .mob-menu-list {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
 }
-.mob-menu-list-item:not(:last-child) {
-  margin-bottom: 15px;
+.mob-menu-list-item {
+  border-bottom: 2px solid rgba(128, 0, 128, 0.463);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  &:first-child {
+    border-top: 2px solid rgba(128, 0, 128, 0.463);
+  }
 }
 .mob-menu-list-item__link {
   color: purple;
