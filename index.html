@@ -34,6 +34,7 @@
     </header>
     <section class="menu">
       <div class="container">
+        <button type="button" class="akcia" data-modal-open>!! акція !!</button>
         <ul class="menu-list">
           <li class="menu-list-item">
             <a href="./hokah.html" class="menu-list-item__link animate__animated animate__slideInLeft">Кальян</a>
@@ -41,7 +42,7 @@
           <li class="menu-list-item">
             <a href="./ba.html" class="menu-list-item__link animate__animated animate__slideInRight">Безалкогольні-напої</a>
           </li>
-          <li class="menu-list-item">
+          <li class="menu-list-item" data-modal-a-close>
             <a href="./coktail.html" class="menu-list-item__link animate__animated animate__slideInLeft">Коктелі</a>
           </li>
           <li class="menu-list-item">
@@ -73,5 +74,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden-a" data-modal>
+      <div class="modal">
+
+      </div>
+    </div>
+    <script src="./js/akcia.js"></script>
   </body>
 </html>
