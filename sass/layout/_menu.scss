@@ -116,7 +116,7 @@
 }
 .hookah-akcia {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border: 3px dashed purple;
   border-radius: 15px;
@@ -167,7 +167,7 @@
   animation: light 1s linear infinite;
 }
 .img-hookah-akcia-aperol {
-  width: 90px;
+  width: 52px;
   margin-left: -20px;
 }
 .akcia-title-aperol {
@@ -188,4 +188,7 @@
 }
 .icon__akcia-close {
   fill: rgba(128, 0, 128, 0.514);
+}
+.ap-txt {
+  margin-right: 20px;
 }
