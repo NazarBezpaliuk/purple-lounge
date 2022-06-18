@@ -99,16 +99,93 @@
   transform: scale(0) rotate(720deg);
 }
 .modal {
-  width: 320px;
-  height: 300px;
   background-color: pink;
   border-radius: 20px;
-  border: 2px dashed black;
+  // border: 4px dashed black;
   transform: scale(1) rotate(0);
   transition: transform 700ms linear;
+  padding: 15px;
+  overflow: auto;
+  position: relative;
+  animation: lightmodal 1s linear infinite;
 }
 .is-hidden-a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.hookah-akcia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px dashed purple;
+  border-radius: 15px;
+  padding: 10px;
+}
+.img-hookah-akcia-three {
+  width: 90px;
+}
+.akcia-text-hookah {
+  font-size: 50px;
+  color: purple;
+  font-weight: 600;
+  animation: light 1s linear infinite;
+}
+@keyframes light {
+  0% {
+    text-shadow: 2px 0 2px rgba(168, 25, 224, 0.69), 0 2px 2px rgba(168, 25, 224, 0.69),
+      -2px 0 2px rgba(168, 25, 224, 0.69), 0 -2px 2px rgba(168, 25, 224, 0.69);
+  }
+  50% {
+    text-shadow: 6px 0 4px rgba(168, 25, 224, 0.69), 0 4px 4px rgba(168, 25, 224, 0.69),
+      -4px 0 4px rgba(168, 25, 224, 0.69), 0 -4px 4px rgba(168, 25, 224, 0.69);
+  }
+  100% {
+    text-shadow: 2px 0 2px rgba(168, 25, 224, 0.69), 0 2px 2px rgba(168, 25, 224, 0.69),
+      -2px 0 2px rgba(168, 25, 224, 0.69), 0 -2px 2px rgba(168, 25, 224, 0.69);
+  }
+}
+@keyframes lightmodal {
+  0% {
+    box-shadow: 2px 0 2px rgba(168, 25, 224, 0.69), 0 2px 2px rgba(168, 25, 224, 0.69),
+      -2px 0 2px rgba(168, 25, 224, 0.69), 0 -2px 2px rgba(168, 25, 224, 0.69);
+  }
+  50% {
+    box-shadow: 6px 0 6px rgba(168, 25, 224, 0.69), 0 6px 6px rgba(168, 25, 224, 0.69),
+      -6px 0 6px rgba(168, 25, 224, 0.69), 0 -6px 6px rgba(168, 25, 224, 0.69);
+  }
+  100% {
+    box-shadow: 2px 0 2px rgba(168, 25, 224, 0.69), 0 2px 2px rgba(168, 25, 224, 0.69),
+      -2px 0 2px rgba(168, 25, 224, 0.69), 0 -2px 2px rgba(168, 25, 224, 0.69);
+  }
+}
+.akcia-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: purple;
+  text-transform: uppercase;
+  animation: light 1s linear infinite;
+}
+.img-hookah-akcia-aperol {
+  width: 90px;
+  margin-left: -20px;
+}
+.akcia-title-aperol {
+  font-size: 60px;
+  font-weight: 600;
+  color: purple;
+  text-transform: uppercase;
+  animation: light 1s linear infinite;
+  margin-top: 20px;
+}
+.akcia-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.icon__akcia-close {
+  fill: rgba(128, 0, 128, 0.514);
 }
