@@ -21,7 +21,7 @@
   height: 100%;
   font-size: 20px;
   font-weight: 500;
-  background-color: #ffffffb6;
+  background-color: #ffffff;
   color: purple;
   border-radius: 20px;
   outline: none;
@@ -116,7 +116,7 @@
 }
 .hookah-akcia {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border: 3px dashed purple;
   border-radius: 15px;
@@ -171,12 +171,13 @@
   margin-left: -20px;
 }
 .akcia-title-aperol {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
   color: purple;
   text-transform: uppercase;
   animation: light 1s linear infinite;
   margin-top: 20px;
+  margin-bottom: 5px;
 }
 .akcia-btn {
   position: absolute;
