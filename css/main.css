@@ -886,6 +886,12 @@ img {
   background-image: linear-gradient(rgb(255, 255, 255) 15%, rgb(225, 203, 91) 60%, rgb(248, 45, 45) 15%);
 }
 
+.shoty-list-item__person {
+  font-size: 10px;
+  width: 60px;
+  margin-bottom: 5px;
+}
+
 .bear-section {
   padding: 30px 0;
 }
