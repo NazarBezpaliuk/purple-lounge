@@ -15,10 +15,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
@@ -30,39 +26,56 @@
         <a href="./index.html" class="logo-link"
           ><img src="./image/logo.png" alt="purple-lounge" class="logo"
         /></a>
+        
+        <button type="button" class="menu-open"><svg class="icon__menu-open" width="36" height="36" data-menu-open>
+                  <use href="./image/symbol-defs.svg#icon-menu"></use></svg
+              ></button>
       </div>
-    </header>
-    <section class="menu">
-      <div class="container">
-        <button type="button" class="akcia" data-modal-open>!! акція !!</button>
-        <ul class="menu-list">
-          <li class="menu-list-item">
-            <a href="./hokah.html" class="menu-list-item__link animate__animated animate__slideInLeft">Кальян</a>
+      <div class="mob-menu is-hidden-mob" data-menu>
+          <div class="box-mob">
+          <button type="button" class="menu-close"><svg class="icon__menu-close" width="40" height="40" data-menu-close>
+                  <use href="./image/symbol-defs.svg#icon-mob-menu-close"></button>
+          <a href="./index.html" class="logo-link-menu"
+          ><img src="./image/logo.png" alt="purple-lounge" class="logo"
+        /></a>
+         <button type="button" class="akcia" data-modal-open>!! акція !!</button>
+           <ul class="mob-menu-list">
+          <li class="mob-menu-list-item">
+            <a href="./hokah.html" class="mob-menu-list-item__link ">Кальян</a>
           </li>
-          <li class="menu-list-item">
-            <a href="./ba.html" class="menu-list-item__link animate__animated animate__slideInRight">Безалкогольні-напої</a>
+          <li class="mob-menu-list-item">
+            <a href="./ba.html" class="mob-menu-list-item__link">Безалкогольні-напої</a>
           </li>
-          <li class="menu-list-item" data-modal-a-close>
-            <a href="./coktail.html" class="menu-list-item__link animate__animated animate__slideInLeft">Коктелі</a>
+          <li class="mob-menu-list-item">
+            <a href="./coktail.html" class="mob-menu-list-item__link  current">Коктелі</a>
           </li>
-          <li class="menu-list-item">
-            <a href="./shoty.html" class="menu-list-item__link animate__animated animate__slideInRight">Шоти</a>
+          <li class="mob-menu-list-item">
+            <a href="./shoty.html" class="mob-menu-list-item__link">Шоти</a>
           </li>
-          <li class="menu-list-item">
-            <a href="./bear.html" class="menu-list-item__link animate__animated animate__slideInLeft">Пиво</a>
+          <li class="mob-menu-list-item">
+            <a href="./bear.html" class="mob-menu-list-item__link">Пиво</a>
           </li>
-          <li class="menu-list-item">
-            <a href="./alkohol.html" class="menu-list-item__link animate__animated animate__slideInRight">Алкоголь</a>
+          <li class="mob-menu-list-item">
+            <a href="./alkohol.html" class="mob-menu-list-item__link">Алкоголь</a>
           </li>
-          <li class="menu-list-item">
-            <a href="./hot-drink.html" class="menu-list-item__link animate__animated animate__slideInLeft">Кава-чай</a>
-          </li>
-          <li class="menu-list-item">
-            <a href="./set.html" class="menu-list-item__link animate__animated animate__slideInLeft">Кава-чай</a>
+          <li class="mob-menu-list-item">
+            <a href="./hot-drink.html" class="mob-menu-list-item__link">Кава-чай</a>
           </li>
         </ul>
+        </div>
       </div>
-    </section>
+    </header>
+    <main>
+       <section class="set">
+        <div class="container">
+            <div class="d">
+            <button class="two-people">2 людини</button>
+            <div class="two-people__list"></div>
+            <button class="two-peopler">2 людини</button>
+            </div>
+            </div>
+        </section> 
+    </main>   
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo-link"
@@ -95,6 +108,7 @@
 </div>
       </div>
     </div>
+    <script src="./js/menu-mob.js"></script>
     <script src="./js/akcia.js"></script>
   </body>
 </html>
