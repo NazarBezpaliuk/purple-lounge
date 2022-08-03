@@ -75,6 +75,7 @@ img {
   overflow: auto;
   padding: 15px;
   transform: translateX(0);
+  z-index: 10;
   transition: transform 500ms linear, opacity 500ms linear, visibility 500ms linear;
 }
 .mob-menu-list {

@@ -81,6 +81,7 @@ img {
   overflow: auto;
   padding: 15px;
   transform: translateX(0);
+  z-index: 10;
   transition: transform 500ms linear, opacity 500ms linear, visibility 500ms linear;
 }
 
@@ -1396,4 +1397,12 @@ img {
   100% {
     color: red;
   }
+}
+.set-info {
+  text-align: center;
+  font-size: 20px;
+  color: purple;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */
