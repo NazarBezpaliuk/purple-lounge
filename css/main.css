@@ -1280,7 +1280,7 @@ img {
 }
 
 .pink {
-  border: 9px solid pink;
+  border: 9px solid orange;
 }
 
 .last_border {
@@ -1363,7 +1363,7 @@ img {
 }
 
 .color-pink {
-  background-color: pink;
+  background-color: orange;
   display: inline-block;
   width: 50px;
   position: absolute;
@@ -1371,7 +1371,7 @@ img {
   left: -3px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  color: black;
+  color: white;
 }
 
 .set__title {
