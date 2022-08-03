@@ -1405,4 +1405,11 @@ img {
   background-color: white;
   padding: 10px;
   border-radius: 20px;
+}
+
+.set-menu {
+  background-image: url(../image/man-a.png), url(../image/man-b.png), url(../image/man-c.png);
+  background-repeat: no-repeat;
+  background-size: 35px, 50px, 30px;
+  background-position: right 30px center, left 10px center, left 40px center;
 }/*# sourceMappingURL=main.css.map */
