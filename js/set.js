@@ -11,6 +11,5 @@
 
   function toggleSet() {
     refs.set.classList.toggle('is-hidden-set');
-    refs.body.classList.toggle('no-scroll');
   }
 })();
