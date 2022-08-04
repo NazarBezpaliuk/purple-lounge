@@ -239,6 +239,7 @@ img {
   justify-content: center;
   align-items: center;
   transition: opacity 700ms linear, visibility 700ms linear;
+  z-index: 1000;
 }
 
 .backdrop.is-hidden-a .modal {
