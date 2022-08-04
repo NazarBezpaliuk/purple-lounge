@@ -8,10 +8,11 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  background-image: url(../image/hot-drink.png), url(../image/hot-drink-decor.png);
+  background-image: url(../image/hot-drink.png), url(../image/hot-drink-decor.png),
+    url(../image/ice.png);
   background-repeat: no-repeat;
-  background-position: top center, top 200px left 10px;
-  background-size: contain, 250px;
+  background-position: top center, top 200px left 10px, top 420px left -15px;
+  background-size: contain, 250px, 200px;
   @media screen and (max-width: 370px) {
     padding-top: 100px;
   }
@@ -31,8 +32,6 @@
   &:not(:last-child) {
     margin-bottom: 15px;
   }
-}
-.hot-drink-list-item__name {
 }
 .hot-drink-list-itme__price {
   display: flex;
