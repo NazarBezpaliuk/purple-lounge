@@ -1013,7 +1013,7 @@ img {
 .oxford__image_group {
   z-index: 11;
   transform: scaleY(1);
-  transition: transform 1s linear;
+  transition: transform 500ms linear;
 }
 .oxford__image_group.rotate_o {
   transform: scaleY(0);
@@ -1027,7 +1027,7 @@ img {
   background-color: rgb(100, 193, 255);
   z-index: 10;
   transform: scaleY(0);
-  transition: transform 1s linear;
+  transition: transform 500ms linear;
   padding: 10px;
 }
 .test.rotate_o {
