@@ -989,6 +989,104 @@ img {
   border-radius: 20px;
 }
 
+.card-oxford {
+  position: relative;
+  display: flex;
+}
+.card-oxford:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.card-oxford.open-info-oxford:focus {
+  transform: rotateY(180deg);
+}
+
+.open-info-oxford {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  bottom: 5px;
+  left: 2%;
+  display: flex;
+}
+
+.oxford__image_group {
+  z-index: 11;
+  transform: rotateX(0);
+  transition: transform 1s linear, z-index 1s linear;
+}
+.oxford__image_group.rotate_o {
+  transform: rotateX(180deg);
+  z-index: 10;
+}
+
+.test {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(100, 193, 255);
+  z-index: 10;
+  transform: rotateX(180deg);
+  transition: transform 1s linear, z-index 1s linear;
+  padding: 10px;
+}
+.test.rotate_o {
+  transform: rotateX(0);
+  z-index: 11;
+}
+.test.brusel {
+  background-color: rgb(126, 1, 1);
+}
+.test.wamber {
+  background-color: rgb(114, 192, 114);
+}
+.test.pilsner {
+  background-color: rgb(191, 191, 102);
+}
+
+.red-price {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.red-price.red-black {
+  color: black;
+}
+
+.ml-red {
+  font-size: 15px;
+}
+
+.arrow_info {
+  transform: rotate(90deg);
+  fill: rgb(0, 0, 0);
+}
+
+.info-red-text {
+  font-size: 20px;
+}
+
+.legend-red {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.inf-red {
+  font-size: 10px;
+}
+
+.name-red {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .alcohol {
   padding-top: 30px;
   padding-bottom: 30px;
