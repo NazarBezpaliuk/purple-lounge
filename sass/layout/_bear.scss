@@ -108,11 +108,11 @@
   display: flex;
 }
 .oxford__image_group {
-  z-index: 11;
-  transform: scaleY(1);
+  z-index: 2;
+  transform: rotateX(0);
   transition: transform 500ms linear;
   &.rotate_o {
-    transform: scaleY(0);
+    transform: rotateX(90deg);
   }
 }
 
@@ -122,12 +122,11 @@
   width: 100%;
   height: 100%;
   background-color: rgb(100, 193, 255);
-  z-index: 10;
-  transform: scaleY(0);
-  transition: transform 500ms linear;
+  z-index: 1;
+  // transform: rotateX(90deg);
+  transition: transform 1s linear;
   padding: 10px;
   &.rotate_o {
-    transform: scaleY(1);
   }
   &.brusel {
     background-color: rgb(126, 1, 1);
