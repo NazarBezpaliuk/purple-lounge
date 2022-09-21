@@ -103,9 +103,10 @@
   position: absolute;
   background-color: transparent;
   border: none;
-  bottom: 5px;
+  bottom: -5px;
   left: 2%;
   display: flex;
+  outline: none;
 }
 .oxford__image_group {
   z-index: 2;
@@ -165,7 +166,7 @@
 }
 .legend-red {
   font-size: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .inf-red {
   font-size: 10px;
@@ -173,4 +174,56 @@
 .name-red {
   font-size: 20px;
   font-weight: 600;
+}
+.snacks-board {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 3;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: translateX(-91%);
+  transition: transform 500ms linear;
+}
+.button-snack {
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: rebeccapurple;
+  font-weight: 600;
+}
+.bear-list {
+  padding-left: 20px;
+}
+.slide {
+  transform: translateX(0);
+}
+.snack-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25%;
+}
+.snack-list__item {
+  display: flex;
+  align-items: center;
+  & p {
+    color: rebeccapurple;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+.snack_name {
+  text-align: center;
+  font-weight: 600;
+  color: rebeccapurple;
+  font-size: 30px;
 }
