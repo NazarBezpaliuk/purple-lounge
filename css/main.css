@@ -1040,6 +1040,11 @@ img {
   background-color: rgb(191, 191, 102);
 }
 
+.dublin {
+  background-color: rgb(3, 28, 3);
+  color: #fff;
+}
+
 .red-price {
   position: absolute;
   top: 20px;
